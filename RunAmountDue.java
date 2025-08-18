@@ -10,7 +10,6 @@ public class RunAmountDue {
         System.out.println("2 values = Price and Quantity (Example: 300 10)");
         System.out.println("3 values = Price, Quantity, Discount (Example: 300 10 50)");
 
-        // Read the full line
         String line = Sc.nextLine();
         String[] parts = line.split(" ");
 
@@ -39,7 +38,7 @@ public class RunAmountDue {
         } catch (Exception e) {
             System.out.println("Invalid input format.");
         }
-
+        
         Sc.close();
     }
 }
